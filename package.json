@@ -1,0 +1,35 @@
+{
+  "name": "advanced-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangmta/advanced-react.git"
+  },
+  "keywords": [
+    "advanced",
+    "react"
+  ],
+  "author": "wangmta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wangmta/advanced-react/issues"
+  },
+  "homepage": "https://github.com/wangmta/advanced-react#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.19.0"
+  },
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1"
+  }
+}
