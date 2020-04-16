@@ -1,0 +1,7 @@
+babel-pollyfill, to support modern js features such as class property.
+async/await
+
+pm2 update server side change, same as nodemon in windows
+
+// get data to local
+wget -O lib/testData.json bit.ly/react-blog-test-data

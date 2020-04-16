@@ -7,9 +7,11 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "test",
+    "test": "jest --watch",
     "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
-    "logs": "pm2 logs"
+    "logs": "pm2 logs",
+    "webpack": "webpack -wd",
+    "getdata": "wget -O lib/testData.json bit.ly/react-blog-test-data"
   },
   "repository": {
     "type": "git",
@@ -35,15 +37,22 @@
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.19.0"
+    "eslint-plugin-react": "^7.19.0",
+    "jest": "^25.3.0"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "ejs": "^3.0.2",
     "express": "^4.17.1",
-    "pm2": "^4.2.3"
+    "pm2": "^4.2.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   }
 }
