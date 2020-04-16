@@ -1,0 +1,2 @@
+this views folder on the top level is where ejs looks for templates
+ejs is used for server side rendering
