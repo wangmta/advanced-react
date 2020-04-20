@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest --watch",
     "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
-    "start": "nodemon --exec babel-node lib/server.js",
+    "start": "NODE_PATH=./lib nodemon --exec babel-node lib/server.js",
     "logs": "pm2 logs",
     "stop": "pm2 stop 0",
     "webpack": "webpack -wd",
