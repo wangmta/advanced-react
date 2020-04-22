@@ -43,4 +43,4 @@ yarn-error.log
 # VSCode
 .history
 
-public/
+/public/
